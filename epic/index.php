@@ -22,7 +22,7 @@
 		<ul>
 			<li>to connect with like users who are in the market to purchase artistic masterpieces</li>
 			<li>to share pictures of products with users</li>
-			<li>to establish a strong profile to appeal to future and or returning customers</li>
+			<li>to establish a strong profile to appeal to future and or returning customers(ratings, reviews, and seller history)</li>
 		</ul>
 		<!-- User Frustrations -->
 		<h2>Frustrations</h2>
@@ -37,7 +37,13 @@
 			<li>user then directed to "home page" same view "buying" user will see</li>
 			<li>user icons listed next to profile avatar will direct seller to post new items available for purchase</li>
 			<li>user can then start at the top of the page with images of product for sale. User can upload up to but no more than 10 photos 				regarding product for sale. Will also allow seller to adjust thumbnail to increase user visit history </li>
-			<li></li>
+			<li>user can then provide great detail regarding product listed for sale. Title will be open answer and other detailing factors in
+				form of drop down limiting the users possible choices when describing. Will give general description</li>
+			<li>Seller will then detail price of the item</li>
+			<li>Now that user has provided all necessary information regarding item description the buying user would need to complete
+				transaction, the selling user will then define payment options and how they would like to be paid when a product
+				is purchased</li>
+			<li>final step, entering in appropriate banking information to receive said income when product is purchased</li>
 		</ol>
 
 		<!-- Conceptual Model -->
@@ -45,20 +51,20 @@
 		<p>Profile Entity</p>
 		<table>
 			<tr>
-				<th>profileId</th>
-				<th>profileAtHandle</th>
+				<th>profileId(primary key)           |</th>
+				<th>  profileUserName</th>
 			</tr>
 			<tr>
-				<td>8</td>
-				<td>meghanjones</td>
+				<td>8         |</td>
+				<td>  meghanjones</td>
 			</tr>
 		</table>
 		<p>PRODUCT ENTITY</p>
 		<table>
 			<tr>
-				<th>productId</th>
-				<th>profileId</th>
-				<th>productContent</th>
+				<th>productId(Primary key)       |</th>
+				<th>profileId                    |</th>
+				<th>productContent                </th>
 			</tr>
 			<tr>
 				<td>17</td>
@@ -71,11 +77,11 @@
 				<td>tacky Marilyn Monroe painting</td>
 			</tr>
 		</table>
-		<p>FAVORITE ENTITY: <em>m-to-n</em>from profile to product</p>
+		<p>FAVORITE ENTITY: <em>m-to-n(Intersection)</em>from profile to product</p>
 		 <table>
 			 <tr>
-				 <th>profileId</th>
-				 <th>productId</th>
+				 <th>profileId(foreign key)                    |</th>
+				 <th>productId(foreign key)</th>
 			 </tr>
 			 <tr>
 				 <td>8</td>
@@ -84,7 +90,8 @@
 		 </table>
 
 		<!--  Goal, and Audience -->
-		<p><strong>Ultimate Goal:</strong>To be able to provide a page is to navigate. One which will allow other users to frequent her page and make possible transactions when products are available.</p>
-		<p><strong>Audience:</strong> 18 - 35 years old, new mothers, college graduates, art majors and enthusiast</p>
+		<p><strong>Ultimate Goal:</strong>To be able to provide a page that is easy to navigate. One which will allow other users to frequent
+			her page and make possible transactions when products are available.</p>
+		<p><strong>Audience:</strong> 18 - 35 year olds, new mothers, college graduates, art majors and enthusiast</p>
 	</body>
 	</html>
