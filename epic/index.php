@@ -33,32 +33,55 @@
 		<!-- Interaction Flow -->
 		<h2>Interaction  Flow:</h2>
 		<ol>
-			<li>User sign in using userName / userEmail and password</li>
+			<li>After the user has signed into their already established shop. . .</li>
 			<li>user then directed to "home page" same view "buying" user will see</li>
 			<li>user icons listed next to profile avatar will direct seller to post new items available for purchase</li>
-			<li>user can then list details about their shop and products. A clear outline for future users to navigate successfully
-				and complete purchase transactions</li>
+			<li>user can then start at the top of the page with images of product for sale. User can upload up to but no more than 10 photos 				regarding product for sale. Will also allow seller to adjust thumbnail to increase user visit history </li>
+			<li></li>
 		</ol>
 
 		<!-- Conceptual Model -->
-		PROFILE ENTITY
-
-		profileId          | profileAtHandle
-		-------------------------------------------
-		8                  | meghanjones
-
-		PRODUCT ENTITY
-
-		productId | profileId | productContent
-		----------------------------------------------------------------------
-		17        | 8             | homemade bow and arrow stand
-		72        | 24            | tacky marilyn monroe painting
-
-		 FAVORITE ENTITY: m-to-n from profile to product
-
-		profileId          | productId
-		-------------------------------------------
-		8                  | 72
+		<h3>Concetual Model</h3>
+		<p>Profile Entity</p>
+		<table>
+			<tr>
+				<th>profileId</th>
+				<th>profileAtHandle</th>
+			</tr>
+			<tr>
+				<td>8</td>
+				<td>meghanjones</td>
+			</tr>
+		</table>
+		<p>PRODUCT ENTITY</p>
+		<table>
+			<tr>
+				<th>productId</th>
+				<th>profileId</th>
+				<th>productContent</th>
+			</tr>
+			<tr>
+				<td>17</td>
+				<td>8</td>
+				<td>homemade bow and arrow stand</td>
+			</tr>
+			<tr>
+				<td>72</td>
+				<td>24</td>
+				<td>tacky Marilyn Monroe painting</td>
+			</tr>
+		</table>
+		<p>FAVORITE ENTITY: <em>m-to-n</em>from profile to product</p>
+		 <table>
+			 <tr>
+				 <th>profileId</th>
+				 <th>productId</th>
+			 </tr>
+			 <tr>
+				 <td>8</td>
+				 <td>72</td>
+			 </tr>
+		 </table>
 
 		<!--  Goal, and Audience -->
 		<p><strong>Ultimate Goal:</strong>To be able to provide a page is to navigate. One which will allow other users to frequent her page and make possible transactions when products are available.</p>
