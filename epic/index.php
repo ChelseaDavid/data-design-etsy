@@ -13,8 +13,7 @@
 
 		<p><strong>Age:</strong>28</p>
 		<p><strong>Operating Platforms:</strong>Spends most of her time at home so prefers to operate on Windows 10 but occasionally uses tablet or smartphone when on the go or completing transactions</p>
-		<p><strong>User:</strong>Meghan is a college graduate who majored in fine art. She recently had a baby, and found lots of time while at home to begin pursuing her love for creating masterpieces.</p>
-		<p>Meghan has been working on her love of slupting and pottery work for about a year now and has come to find she has quite a few items in her collection. Upon hearing feedback from friends and relatives on what a great job she had done, she considered if others may feel the same.</p>
+		<p><strong>User:</strong>Meghan is a college graduate who majored in fine art. She recently had a baby, and found lots of time while at home to begin pursuing her love for creating masterpieces. Meghan has been working on her love of slupting and pottery work for about a year now and has come to find she has quite a few items in her collection. Upon hearing feedback from friends and relatives on what a great job she had done, she considered if others may feel the same.</p>
 
 		<h2>Needs:</h2>
 		<ul>
@@ -25,7 +24,11 @@
 
 		<h2>Frustrations</h2>
 		<ul>
-			<li></li>
+			<li>Slow uploads</li>
+			<li>Needs to be plugged in when uploading images</li>
 		</ul>
+
+		<p><strong>Ultimate Goal:</strong>To be able to provide an easily navigatable page which will allow other users to frequest her page and make possible transactions when products are available.</p>
+
 	</body>
 	</html>
