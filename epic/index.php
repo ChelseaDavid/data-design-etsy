@@ -12,7 +12,7 @@
 		<!-- User info / Persona -->
 		<p><strong>Age:</strong>28</p>
 		<p><strong>Operating Platforms:</strong> Spends most of her time at home so prefers to operate on Windows 10 laptop, core i5,
-			but occasionally uses tablet or smartphone when on the go or completing transactions</p>
+			but occasionally uses an IPad tablet or Samsung Galaxy Edge 7 when on the go or completing transactions</p>
 		<p><strong>User:</strong>Meghan is a college graduate who majored in fine art. She recently had a baby, and found lots of time while at home to begin pursuing her love for creating masterpieces. Meghan has been working on her love of slupting and pottery work for about a year now and has come to find she has quite a few items in her collection. Upon hearing feedback from friends and relatives on what a great job she had done, she considered if others may feel the same.</p>
 		<!-- User Story -->
 		<h2>User Story:</h2>
